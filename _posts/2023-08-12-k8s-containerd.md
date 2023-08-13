@@ -2,7 +2,7 @@
 title: "Kubernetes e containerd: Un Matrimonio Perfetto"
 category: Kubernetes
 description: Scopri come combinare la potenza di Kubernetes con la leggerezza e l'efficienza di containerd. Una guida passo passo che ti accompagna nella creazione di un cluster perfetto, pronto per ogni sfida!
-image: k8s-containerd/cover.png
+image: k8s-containerd/cover.jpg
 keywords: Kubernetes, cluster, containerd, kubeadm, kubelet, kubectl
 layout: post
 date:   2023-08-12
