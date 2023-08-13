@@ -1,0 +1,42 @@
+{%- if jekyll.environment == "production" -%}
+<script type="text/javascript">
+    var _iub = _iub || [];
+    _iub.csConfiguration = {
+        "askConsentAtCookiePolicyUpdate": true,
+        "floatingPreferencesButtonDisplay": "anchored-center-right",
+        "lang": "en",
+        "perPurposeConsent": true,
+        "siteId": 3141846,
+        "whitelabel": false,
+        "cookiePolicyId": 74456977,
+        "floatingPreferencesButtonCaption": true,
+        "callback": {
+            "onConsentFirstGiven": () => {
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+
+                gtag('config', 'G-7X8B5HW3JY');
+            }, "onConsentGiven": () => {
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+
+                gtag('config', 'G-7X8B5HW3JY');
+            }, 
+            "banner": { 
+                "acceptButtonDisplay": true,
+                "backgroundOverlay": true,
+                "closeButtonDisplay": false,
+                "customizeButtonDisplay": true,
+                "explicitWithdrawal": true,
+                "listPurposes": true,
+                "position": "float-center",
+                "rejectButtonDisplay": true,
+                "showPurposesToggles": true
+            }
+        },
+    };
+</script>
+<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+{%- endif -%}
