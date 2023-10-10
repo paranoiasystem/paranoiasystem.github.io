@@ -5,7 +5,7 @@ description: Scopri come Cosign può aiutarti a instaurare un ambiente di fiduci
 image: cosign/cover.png
 keywords: cosign-sigstore, firma-immagini-docker, sicurezza-supply-chain-software, verifica-immagini-docker, integrazione-cosign-github
 layout: post
-date:   2023-10-11
+date:   2023-10-10
 ---
 
 Nel vasto e dinamico ecosistema dello sviluppo software, la sicurezza è un pilastro fondamentale che garantisce l'affidabilità e l'integrità dei prodotti digitali. In particolare, con la crescente adozione dei container, la necessità di validare l'autenticità e l'integrità delle immagini Docker è diventata cruciale. Qui entra in gioco [**_Cosign_**](https://docs.sigstore.dev/signing/quickstart/), uno strumento sviluppato dal progetto [**_Sigstore_**](https://www.sigstore.dev/), progettato per facilitare la firma e la verifica delle immagini Docker. Questa pratica assicura che il codice che si sta per distribuire sia esattamente quello inteso, privo di alterazioni malevole. In questo articolo, ci immergeremo nel mondo di [**_Cosign_**](https://docs.sigstore.dev/signing/quickstart/), esplorando come funziona, come può essere utilizzato per firmare un'immagine Docker, e perché è un elemento essenziale per migliorare la sicurezza della supply chain del software. Illustrerò anche un esempio pratico, mostrando come ho integrato [**_Cosign_**](https://docs.sigstore.dev/signing/quickstart/) in una pipeline GitHub per automatizzare il processo di firma delle immagini. Per una visione dettagliata e l'accesso al codice sorgente, vi invito a visitare il mio [repository GitHub](https://github.com/paranoiasystem/testcosign).
